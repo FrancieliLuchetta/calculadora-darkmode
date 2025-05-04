@@ -1,0 +1,38 @@
+:root {
+  --bg: #f0f0f0;
+  --text: #000;
+  --btn-bg: #fff;
+  --btn-text: #000;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: sans-serif;
+  text-align: center;
+  padding: 20px;
+  transition: 0.3s;
+}
+
+button {
+  background-color: var(--btn-bg);
+  color: var(--btn-text);
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.calculadora {
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+body.dark {
+  --bg: #121212;
+  --text: #fff;
+  --btn-bg: #333;
+  --btn-text: #fff;
+}
